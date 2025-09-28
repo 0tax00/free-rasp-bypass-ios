@@ -8,7 +8,7 @@ This script bypasses iOS freeRASP security framework by intercepting the main in
 frida -U -f <bundle_identifier> -l freerasp-bypass-ios.js
 ```
 ```bash
-frida --codeshare 0tax00/free-rasp-bypass-ios -f YOUR_BINARY
+frida --codeshare 0tax00/ios-freerasp-bypass -f YOUR_BINARY
 ```
 
 ## How to Discover Security Frameworks
